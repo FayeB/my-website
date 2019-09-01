@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{52:function(e,n,t){"use strict";t.r(n);var o=t(0),r=t.n(o);n.default=function(){return r.a.createElement("div",{style:{textAlign:"center"}},r.a.createElement("h1",null,"Portfolio"))}}}]);

@@ -1,0 +1,61 @@
+{
+  "entry": "C:\\Users\\msfay\\my-static-website\\src\\index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "plugins": [
+    [
+      "C:\\Users\\msfay\\my-static-website\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "./src/pages"
+      }
+    ],
+    "C:\\Users\\msfay\\my-static-website\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\msfay\\my-static-website\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\msfay\\my-static-website"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\msfay\\my-static-website",
+    "SRC": "C:\\Users\\msfay\\my-static-website\\src",
+    "DIST": "C:\\Users\\msfay\\my-static-website\\dist",
+    "ASSETS": "C:\\Users\\msfay\\my-static-website\\dist",
+    "PLUGINS": "C:\\Users\\msfay\\my-static-website\\plugins",
+    "TEMP": "C:\\Users\\msfay\\my-static-website\\tmp",
+    "ARTIFACTS": "C:\\Users\\msfay\\my-static-website\\artifacts",
+    "PUBLIC": "C:\\Users\\msfay\\my-static-website\\public",
+    "NODE_MODULES": "C:\\Users\\msfay\\my-static-website\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\msfay\\my-static-website\\node_modules",
+    "PACKAGE": "C:\\Users\\msfay\\my-static-website\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\msfay\\my-static-website\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\msfay\\my-static-website\\dist\\staticData"
+  },
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
